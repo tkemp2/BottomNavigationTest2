@@ -19,13 +19,13 @@ namespace FragmentsTest.Droid.Activities
             this.SetContentView(Resource.Layout.MainContainerLayout);
         }
 
-        public override void OnBackPressed()
-        {
-            if (this.SupportFragmentManager.BackStackEntryCount > 0)
-                this.SupportFragmentManager.PopBackStack();
-            else
-                base.OnBackPressed();
-        }
+        //public override void OnBackPressed()
+        //{
+        //    if (this.SupportFragmentManager.BackStackEntryCount > 0)
+        //        this.SupportFragmentManager.PopBackStack();
+        //    else
+        //        base.OnBackPressed();
+        //}
 
         protected override void OnPause()
         {

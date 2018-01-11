@@ -7,7 +7,7 @@ using MvvmCross.Droid.Views.Attributes;
 
 namespace FragmentsTest.Droid.Views
 {
-    [MvxFragmentPresentation(ActivityHostViewModelType = typeof(MainViewModel), FragmentContentId = Resource.Id.main_container_frame, AddToBackStack = true)]
+    [MvxFragmentPresentation(ActivityHostViewModelType = typeof(MainViewModel), FragmentContentId = Resource.Id.main_container_frame)]
     public partial class TabsView : MvxFragment<TabsViewModel>
     {
         public TabsView()
